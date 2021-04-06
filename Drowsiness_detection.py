@@ -100,11 +100,6 @@ while True:
         cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 255, 0), 3)
         landmarks = predictor(image=gray, box=rect)
         
-        refImgPts = world.ref2dImagePoints(landmarks)
-        height, width, channels = frame.shape
-        focalLength = args["focal"] * width
-        cameraMatrix = world.cameraMatrix(focalLength, (height / 2, width / 2))
-        mdists = np.zeros((4, 1), dtype=np.float64)
         
         
         
