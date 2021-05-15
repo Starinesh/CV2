@@ -16,4 +16,4 @@ Nowadays, road accidents are frequent, and the number of traffic accidents cause
 * Install OpenCV [on Windows](https://learnopencv.com/install-opencv3-on-windows/) [on MacOS](https://learnopencv.com/install-opencv3-on-macos/)
 * Install dlib library [install dlib on windows using Anaconda](https://www.youtube.com/watch?v=xXbouOlAyoo) or [on MacOS](https://learnopencv.com/install-dlib-on-macos/)
 
-![h]
+![](https://github.com/Starinesh/CV2/blob/main/diagram.drawio)
